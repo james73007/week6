@@ -12691,7 +12691,7 @@ p, ol, ul {
   background-color: #190014CC;
 }
 
-.other-like img {
+.other-like-img {
   width: 350px;
   height: 350px;
 }
@@ -12713,46 +12713,13 @@ p, ol, ul {
   height: 100%;
 }
 
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
-
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  width: auto !important;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
+.card-img-top {
+  width: 350px;
+  height: 350px;
   -o-object-fit: cover;
      object-fit: cover;
 }
