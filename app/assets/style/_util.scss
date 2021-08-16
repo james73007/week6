@@ -1,0 +1,30 @@
+// .fw-bold{
+//     font-weight: 700;
+// }
+.fw-medium{
+    font-weight: 500;
+}
+
+
+
+$font-base:16px;
+
+
+.font-s{
+    font-size:  $font-base *1.25; //20px
+}
+
+.font-m{
+    font-size:  $font-base *1.5; //24px
+}
+.font-l{
+    font-size:  $font-base * 1.75; //28px
+}
+
+.font-xl{
+    font-size:  $font-base * 2; //32px
+}
+
+.font-xxl{
+    font-size:  $font-base * 2.25; //36px
+}
