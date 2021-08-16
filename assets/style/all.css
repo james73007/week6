@@ -12631,10 +12631,8 @@ fieldset:disabled .btn {
   }
 }
 
-*,
-*::before,
-*::after {
-  font-family: 'Roboto','Noto Sans CJK TC',serif;
+body {
+  font-family: 'Roboto', 'Noto-Sans-CJK-TC', sans-serif;
   line-height: 1.5;
 }
 
@@ -12646,6 +12644,7 @@ img {
 
 h1, .h1, .h1, h2, .h2, .h2, h3, .h3, .h3, h4, .h4, .h4, h5, .h5, .h5, h6, .h6, .h6 {
   margin-bottom: 0;
+  line-height: 1.5;
 }
 
 p, ol, ul {
@@ -12741,6 +12740,30 @@ p, ol, ul {
 .swiper-slide img {
   width: 100%;
   height: 350px;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.font-s {
+  font-size: 20px;
+}
+
+.font-m {
+  font-size: 24px;
+}
+
+.font-l {
+  font-size: 28px;
+}
+
+.font-xl {
+  font-size: 32px;
+}
+
+.font-xxl {
+  font-size: 36px;
 }
 
 /*# sourceMappingURL=all.css.map */
